@@ -1,0 +1,7 @@
+@mixin on-hover($property, $value) {
+  transition: $transition-duration;
+
+  &:hover {
+    #{$property}: $value;
+  }
+}
